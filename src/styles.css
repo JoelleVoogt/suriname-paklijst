@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@theme inline {
+  --font-sans: var(--font-family-body);
+  --font-serif: var(--font-family-heading);
+}
+
+/* ── Font faces ── */
+@font-face {
+  font-family: "Anthropic Serif Text";
+  src: url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSerif-Web/AnthropicSerif-Roman-Web.woff2") format("woff2"),
+       url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSerif-Web/AnthropicSerif-Roman-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anthropic Serif Text";
+  src: url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSerif-Web/AnthropicSerif-Italic-Web.woff2") format("woff2"),
+       url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSerif-Web/AnthropicSerif-Italic-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anthropic Sans Text";
+  src: url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSans-Web/AnthropicSans-Roman-Web.woff2") format("woff2"),
+       url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSans-Web/AnthropicSans-Roman-Web.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anthropic Sans Text";
+  src: url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSans-Web/AnthropicSans-Italic-Web.woff2") format("woff2"),
+       url("/Anthropic-TypeSystem-FontStack-26.043.1/AnthropicSans-Web/AnthropicSans-Italic-Web.woff") format("woff");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
