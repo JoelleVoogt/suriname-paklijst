@@ -59,7 +59,7 @@ export default function App() {
         <div>{categories}</div>
       </main>
       <footer className="border-t border-(--border-neutral-2) px-(--layout-container-padding) py-(--spacing-lg) text-center text-(length:--body-size-sm) text-(--content-2)">
-        Fijn weekend! Vergeet je knuffel niet!
+        Fijne reis! Switi Sranan 🌴
       </footer>
       <Confetti trigger={confettiTrigger} />
     </>

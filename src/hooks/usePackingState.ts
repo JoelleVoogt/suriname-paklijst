@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import { packingData } from "../data/packingData";
 
-const STORAGE_KEY = "weekend-weg-paklijst-2026";
+const STORAGE_KEY = "suriname-paklijst-2026";
 
 export type PackingState = Record<string, boolean>;
 

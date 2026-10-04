@@ -19,11 +19,11 @@ export function Hero({ checkedCount, progressPct }: HeroProps) {
           Paklijst 2026
         </div>
         <h1 className="mb-(--spacing-sm) font-serif text-(length:--heading-size-lg) leading-(--font-heading-lg-line-height) font-normal md:text-(length:--heading-size-xl) md:leading-(--font-heading-xl-line-height)">
-          Toe aan Vakantie
+          Naar Suriname
         </h1>
         <p className="mx-auto mb-(--spacing-lg) max-w-130 text-(length:--body-size-lg) leading-(--font-body-lg-line-height) text-(--color-neutral-300)">
-          Kan iemand aub alvast een ijskouwe pilsie koud leggen voor mij?!?!! En
-          de jacuzzi opwarmen??!?! AAHHHH
+          2,5 week tropen: 3 dagen de jungle in, 2 dagen Bigi Pan en de rest
+          lekker Paramaribo. Vergeet de muggenspray niet!
         </p>
         <div className="mx-auto max-w-[400px]">
           <div className="mb-(--spacing-2xs) flex justify-between text-(length:--body-size-sm) text-(--color-neutral-400)">
